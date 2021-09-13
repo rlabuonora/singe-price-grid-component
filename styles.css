@@ -1,0 +1,129 @@
+:root {
+  box-sizing: border-box;
+}
+
+*,
+::before, 
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Karla', sans-serif;
+  color: hsl(150, 5%, 93%);
+  background-color: #f0f0f0;
+  font-size: 1rem;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.container {
+  max-width: 355px;
+  margin: 6em auto;
+  background-color: #f8f8f8;
+}
+
+header {
+  padding: 30px 24px 40px;
+}
+
+aside {
+  padding: 24px;
+}
+
+section {
+  padding: 20px 24px 20px;
+}
+
+button {
+  width: 100%;
+  padding: 16px;
+  margin-top: 32px;
+  border-width: 16px;
+}
+
+
+@media (min-width: 430px) {
+  .container {
+  }
+}
+
+
+h1 {
+  color: 	hsl(179, 48%, 52%);
+  font-size: 1.2em;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+header p {
+  
+  line-height: 1.6;
+  font-size: 1rem;
+  
+}
+
+header h2 {
+  color:  hsl(71, 73%, 54%);
+  font-weight: 700;
+}
+
+header > p {
+  color: 	hsl(224, 11%, 74%);
+}
+
+section {
+  background-color: hsl(179, 62%, 43%);
+}
+
+.price {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.price span {
+  font-size: 16px;
+  font-weight: 400;
+  vertical-align: top;
+  line-height: 2;
+  color: hsl(181, 56%, 64%);
+}
+
+@media (min-width: 430px) {
+  .cta {
+
+  }
+}
+
+
+button {
+  border: 0;
+  color: inherit;
+  background-color: hsl(71, 73%, 54%);
+  display: block;
+  font-family: 'Karla', sans-serif;
+  font-size: 1em;
+  border-radius: 4px;
+  
+}
+
+aside {
+  background-color: 	hsl(179, 48%, 52%);
+}
+
+aside .features {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.cta p, aside ul.features li {
+  opacity: .7;
+}
+
+
+
