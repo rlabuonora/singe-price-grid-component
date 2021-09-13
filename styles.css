@@ -13,6 +13,7 @@ body {
   color: hsl(150, 5%, 93%);
   background-color: #f0f0f0;
   font-size: 1rem;
+  padding: 0 2em;
 }
 
 h2 {
@@ -20,7 +21,8 @@ h2 {
 }
 
 .container {
-  max-width: 355px;
+  max-width: 900px;
+  min-width: 200px;
   margin: 6em auto;
   background-color: #f8f8f8;
 }
@@ -45,8 +47,13 @@ button {
 }
 
 
-@media (min-width: 430px) {
-  .container {
+@media (min-width: 500px) {
+  main {
+    display: flex;
+  }
+  
+  section, aside {
+    flex:1 ;
   }
 }
 
@@ -77,6 +84,16 @@ header > p {
   color: 	hsl(224, 11%, 74%);
 }
 
+@media (min-width: 500px) {
+  header p {
+    
+    max-width: 550px;
+  }
+  
+ 
+}
+
+
 section {
   background-color: hsl(179, 62%, 43%);
 }
@@ -94,9 +111,9 @@ section {
   color: hsl(181, 56%, 64%);
 }
 
-@media (min-width: 430px) {
-  .cta {
-
+@media (min-width: 500px) {
+  .cta, aside {
+     padding: 36px;
   }
 }
 
